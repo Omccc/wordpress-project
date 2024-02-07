@@ -1,0 +1,63 @@
+2024-02-06T09:58:30+01:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_snowstorm_rendering_function" not found or invalid function name in C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\wamp64\www\wordpress-project\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\wordpress-project\wp-admin\admin.php(259): do_action('settings_page_m...')
+#3 C:\wamp64\www\wordpress-project\wp-admin\options-general.php(10): require_once('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php on line 324
+
+2024-02-06T09:59:34+01:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_snowstorm_rendering_function" not found or invalid function name in C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\wamp64\www\wordpress-project\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\wordpress-project\wp-admin\admin.php(259): do_action('settings_page_m...')
+#3 C:\wamp64\www\wordpress-project\wp-admin\options-general.php(10): require_once('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php on line 324
+
+2024-02-06T10:25:42+01:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "my_snowstorm_first_section" not found or invalid function name in C:\wamp64\www\wordpress-project\wp-admin\includes\template.php:1783
+Stack trace:
+#0 C:\wamp64\www\wordpress-project\wp-content\plugins\my-snowstorm\my-snowstorm.php(62): do_settings_sections('my-snowstorm-op...')
+#1 C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php(324): my_snowstorm_rendering_function('')
+#2 C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress-project\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress-project\wp-admin\admin.php(259): do_action('settings_page_m...')
+#5 C:\wamp64\www\wordpress-project\wp-admin\options-general.php(10): require_once('C:\\wamp64\\www\\w...')
+#6 {main}
+  thrown in C:\wamp64\www\wordpress-project\wp-admin\includes\template.php on line 1783
+
+2024-02-06T10:28:03+01:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "my_snowstorm_color_html_input" not found or invalid function name in C:\wamp64\www\wordpress-project\wp-admin\includes\template.php:1836
+Stack trace:
+#0 C:\wamp64\www\wordpress-project\wp-admin\includes\template.php(1790): do_settings_fields('my-snowstorm-op...', 'my_snowstorm_se...')
+#1 C:\wamp64\www\wordpress-project\wp-content\plugins\my-snowstorm\my-snowstorm.php(62): do_settings_sections('my-snowstorm-op...')
+#2 C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php(324): my_snowstorm_rendering_function('')
+#3 C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\wamp64\www\wordpress-project\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\wordpress-project\wp-admin\admin.php(259): do_action('settings_page_m...')
+#6 C:\wamp64\www\wordpress-project\wp-admin\options-general.php(10): require_once('C:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in C:\wamp64\www\wordpress-project\wp-admin\includes\template.php on line 1836
+
+2024-02-06T14:02:25+01:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "my_snowstorm_first_section" not found or invalid function name in C:\wamp64\www\wordpress-project\wp-admin\includes\template.php:1783
+Stack trace:
+#0 C:\wamp64\www\wordpress-project\wp-content\plugins\my-snowstorm\my-snowstorm.php(62): do_settings_sections('my-snowstorm-op...')
+#1 C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php(324): my_snowstorm_rendering_function('')
+#2 C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress-project\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress-project\wp-admin\admin.php(259): do_action('settings_page_m...')
+#5 C:\wamp64\www\wordpress-project\wp-admin\options-general.php(10): require_once('C:\\wamp64\\www\\w...')
+#6 {main}
+  thrown in C:\wamp64\www\wordpress-project\wp-admin\includes\template.php on line 1783
+
+2024-02-06T14:03:34+01:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "my_snowstorm_first_section" not found or invalid function name in C:\wamp64\www\wordpress-project\wp-admin\includes\template.php:1783
+Stack trace:
+#0 C:\wamp64\www\wordpress-project\wp-content\plugins\my-snowstorm\my-snowstorm.php(62): do_settings_sections('my-snowstorm-op...')
+#1 C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php(324): my_snowstorm_rendering_function('')
+#2 C:\wamp64\www\wordpress-project\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress-project\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress-project\wp-admin\admin.php(259): do_action('settings_page_m...')
+#5 C:\wamp64\www\wordpress-project\wp-admin\options-general.php(10): require_once('C:\\wamp64\\www\\w...')
+#6 {main}
+  thrown in C:\wamp64\www\wordpress-project\wp-admin\includes\template.php on line 1783
+
